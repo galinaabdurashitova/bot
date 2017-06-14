@@ -1,0 +1,14 @@
+<context>
+	<output value="Hi there! I'll help you to choose a restaurant! :) Where are you now?" />
+	<input pattern="$City">
+		<context>
+			<get url="https://maps.googleapis.com/maps/api/geocode/json" var="Place">
+				<param name="address" value="$City"/>
+				<param name="key" value="AIzaSyD4-zQOXPhIJnAesBIY4DVuYOBFHkRpZZA"/>
+			</get>
+			<var name="$Loc" value='get("location", get("geometry", get("results", $Place)))'>
+			<output value="$Loc" />
+		</context>
+	</input>
+</context>
+
