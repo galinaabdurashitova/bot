@@ -7,7 +7,7 @@
 			<context>
 				<get url="https://maps.googleapis.com/maps/api/geocode/json" var="Place">
 					<param name="address" value="$City"/>
-					<param name="key" value="AIzaSyD4-zQOXPhIJnAesBIY4DVuYOBFHkRpZZA"/>
+					<param name="key" value="AIzaSyDEQRt6Z2iE8FjQhbyPoP_p_lz3Qe4ly-4"/>
 				</get>
 				
 				<var name="Loc" value="javascript: Place.results.geometry.location.lat"/>
