@@ -6,8 +6,8 @@
 				<param name="address" value="$City"/>
 				<param name="key" value="AIzaSyD4-zQOXPhIJnAesBIY4DVuYOBFHkRpZZA"/>
 			</get>
-			<var name="$Loc" value='get("location", get("geometry", get("results", $Place)))'>
-			<output value="$Loc" />
+			
+			<output value='get("location", get("geometry", get("results", $Place)))' />
 		</context>
 	</input>
 </context>
