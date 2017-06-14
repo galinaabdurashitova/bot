@@ -7,7 +7,7 @@
 				<param name="key" value="AIzaSyD4-zQOXPhIJnAesBIY4DVuYOBFHkRpZZA"/>
 			</get>
 			
-			<output value='get("location", get("geometry", get("results", $Place)))' />
+			<output value="get("location", get("geometry", get("results", $Place)))"/>
 		</context>
 	</input>
 </context>
