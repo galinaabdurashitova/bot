@@ -7,8 +7,8 @@
 				<param name="key" value="AIzaSyD4-zQOXPhIJnAesBIY4DVuYOBFHkRpZZA"/>
 			</get>
 			
-			<var name="$Loc1" value='get("results", $Place)'>
-			<output value="$Loc1"/>
+			<var name="Loc" value="javascript: Place.results.geometry.location.lat"/>
+			<output value="$Loc"/>
 		</context>
 	</input>
 </context>
